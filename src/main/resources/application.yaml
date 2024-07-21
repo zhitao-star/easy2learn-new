@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: easy2learn
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/easy2learn?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: rootroot
+  ai:
+    openai:
+      api-key: sk-fo83hdFHRKo2VKSw21060f51E757473b9f3b5f8487F7BcA5
+      base-url: https://api.xty.app
+      chat:
+        options:
+          model: gpt-3.5-turbo
+anki:
+  server: http://localhost:8765
