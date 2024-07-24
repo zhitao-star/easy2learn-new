@@ -3,9 +3,9 @@ spring:
     name: easy2learn
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3307/easy2learn?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
+    url: jdbc:mysql://rm-cn-0mm3tok6c00021zo.rwlb.rds.aliyuncs.com:3306/easy2learn?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
     username: root
-    password: rootroot
+    password: Wwangzhitao!!
   ai:
     openai:
       api-key: sk-fo83hdFHRKo2VKSw21060f51E757473b9f3b5f8487F7BcA5
